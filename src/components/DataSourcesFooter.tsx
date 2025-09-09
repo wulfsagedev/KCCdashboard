@@ -36,7 +36,7 @@ export default function DataSourcesFooter() {
       sources: [
         {
           title: "Care Quality Commission Assessment Report",
-          description: "Independent assessment of KCC's adult social care services",
+          description: "Independent assessment of KCC&apos;s adult social care services",
           url: "https://www.cqc.org.uk/care-services/local-authority-assessment-reports/kent-0525",
           lastUpdated: "May 2025"
         },
@@ -95,7 +95,7 @@ export default function DataSourcesFooter() {
   const methodology = [
     {
       title: "Data Accuracy",
-      description: "All financial figures are sourced directly from KCC's official budget documents and government statistical releases."
+      description: "All financial figures are sourced directly from KCC&apos;s official budget documents and government statistical releases."
     },
     {
       title: "Currency & Timing",
@@ -193,7 +193,7 @@ export default function DataSourcesFooter() {
               <div className="space-y-2">
                 <h4 className="font-medium text-foreground">About This Dashboard</h4>
                 <p className="leading-relaxed">
-                  This independent dashboard presents Kent County Council's financial data in an accessible format. 
+                  This independent dashboard presents Kent County Council&apos;s financial data in an accessible format. 
                   It is not affiliated with KCC but uses only official government sources.
                 </p>
               </div>

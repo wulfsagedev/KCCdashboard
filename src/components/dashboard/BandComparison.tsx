@@ -78,7 +78,7 @@ const BandComparison = () => {
       bandD: 1568.99,
       description: 'Average for all county councils in England',
       comparison: 'KCC is £122 above average',
-      reasoning: 'Kent\'s rural areas and social care demand increase costs'
+      reasoning: 'Kent&apos;s rural areas and social care demand increase costs'
     },
     {
       region: 'Similar Councils',
@@ -105,7 +105,7 @@ const BandComparison = () => {
       explanation: 'Kent has older population than national average'
     },
     {
-      service: 'Children\'s Services',
+      service: 'Children&apos;s Services',
       kent: 25,
       average: 23,
       explanation: 'Higher demand for child protection services'
@@ -278,7 +278,7 @@ const BandComparison = () => {
               <div>
                 <CardTitle className="text-lg sm:text-xl">Regional & National Comparison</CardTitle>
                 <CardDescription className="text-sm sm:text-base">
-                  How KCC's Band D rate compares to regional and national averages
+                  How KCC&apos;s Band D rate compares to regional and national averages
                 </CardDescription>
               </div>
             </div>
@@ -322,7 +322,7 @@ const BandComparison = () => {
               <div>
                 <CardTitle className="text-lg sm:text-xl">5-Year Council Tax Trend</CardTitle>
                 <CardDescription className="text-sm sm:text-base">
-                  How KCC's Band D rate has changed over the last 5 years
+                  How KCC&apos;s Band D rate has changed over the last 5 years
                 </CardDescription>
               </div>
             </div>
@@ -462,7 +462,7 @@ const BandComparison = () => {
               <div className="text-lg sm:text-xl font-bold text-primary">£1,691.19</div>
               <div className="text-xs sm:text-sm text-muted-foreground">Your actual rate</div>
               <div className="text-xs mt-2 text-primary">
-                Reflects Kent's actual service needs
+                Reflects Kent&apos;s actual service needs
               </div>
             </div>
             <div className="text-center p-3 sm:p-4 border rounded-lg">
