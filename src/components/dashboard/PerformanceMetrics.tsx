@@ -67,7 +67,18 @@ const PerformanceSection = () => {
     }
   ];
 
-  const ServiceMetric = ({ service, category }) => (
+  const ServiceMetric = ({ service, category }: { 
+  service: {
+    name: string;
+    score: number;
+    target: number;
+    trend: string;
+    benchmark: string;
+    source: string;
+    explanation: string;
+  };
+  category: string;
+}) => (
     <div className="space-y-4">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0 flex-1">
